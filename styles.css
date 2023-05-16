@@ -1,0 +1,65 @@
+h2 {
+    color: red;
+}
+
+#tagSemantica {
+    color: blue;
+}
+
+.titulo{
+    color: cornflowerblue;
+}
+
+#imagem {
+
+    filter: grayscale();
+
+}
+
+#imagem:hover {
+    opacity: 100%;
+    cursor: pointer;
+    transform: translateY(-10px);
+    filter: contrast();
+    
+}
+
+
+
+#input{
+    background-color: aqua;
+    border: 5px solid red;
+    border-radius: 5px;
+}
+
+#botao{
+    color: red;
+    background-color: gray;
+    width: 100px;
+    height: 30px;
+    border-radius: 4px;
+    border: gray;
+    transition: ease-in-out .5s ;
+}
+
+#botao:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.container{
+    display: flex;
+    background-color: black;
+    justify-content: space-evenly;
+}
+
+.conteudo {
+    text-align: center;
+}
+
+.conteudo > img {
+    border-radius: 10px;
+    transition: ease-in-out 0.3s;
+}
+
